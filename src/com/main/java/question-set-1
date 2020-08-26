@@ -1,0 +1,81 @@
+Thread safe
+
+Concurrent hash map
+
+Diff btw get and load in hibernate
+
+Diff btw session and session factory
+
+Spring session
+
+Hibernate caching
+
+Many to one /one to many realtioship in hibernate entity
+
+Criteria queries of hibernate
+
+Difference between application context and bean factory
+
+Spring rest
+
+JavaScript promise
+
+Event bubbling
+
+How to Solve JavaScript .js conflicts
+
+Project/module estimations
+
+Array blocking/array list blocking
+
+Why string is immutable
+
+Same class name in package
+
+Coposition and aggrgation
+
+Difference between component and service annotation
+
+Serialization after adding property
+
+Desiralization after deleting property
+
+byte a=128,b=127;byte c= a/b;
+
+When to use comparator and comparable
+
+I want to sort based on age which one will you prefer
+
+What will happen when you trying to use session
+
+Steps for hibernate configuration
+
+@Autowire annotation spring
+
+@Qualifier annotation in spring
+
+Volatile
+
+Diffwrent Hashmap and coccurenthashmap
+
+Lock interface.
+
+Cyclic dependency
+
+annotation in spring configuration
+
+Been lifecycle
+
+Call back methods in spring
+
+Object state in hibernate
+
+Design patterns
+
+Threads in synchronization
+
+Difference between interface and abstract class
+
+Load factor in hashmap
+
+Cyclic/circular dependency in spring

@@ -37,26 +37,25 @@ public class LinkedListInsertelementAtPosition {
 		System.out.println();
 	}
 
-	public Node insertAt(int data, int position) {
-		Node headNode = head;
+	public void insertAt(int data, int position) {
+		Node temp = head;
 		Node newNode = new Node(data);
 		if (position == 0) {
-			newNode.next = headNode;
-			headNode = newNode;
-		}
-
-		while (position != 0) {
-			if (position == 1) {
-				System.out.println("inserting " + data + " before " + headNode.data);
-				newNode.next = headNode.next;
-				headNode.next = newNode;
-				break;
+			newNode.next = head;
+			head = newNode;
+		} else {
+			while (temp != null) {
+				if (position == 0) {
+					newNode.next = temp;
+					temp = newNode;
+					head = newNode;
+					break;
+				}
+				temp = temp.next;
+				position--;
 			}
-			headNode = headNode.next;
-			position--;
 		}
 
-		return headNode;
 	}
 
 	public static void main(String[] args) {
